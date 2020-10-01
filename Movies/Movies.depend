@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1601513151 source:c:\users\training\desktop\c++\movies\moviedb.cpp
+	"Moviedb.h"
+
+1601513326 source:c:\users\training\desktop\c++\movies\movie.cpp
+	"Movie.h"
+	<iostream>
+
+1601513341 c:\users\training\desktop\c++\movies\movie.h
+	<iostream>
+
+1601513315 source:c:\users\training\desktop\c++\movies\genre.cpp
+	"Genre.h"
+	<iostream>
+
+1601513331 c:\users\training\desktop\c++\movies\genre.h
+	"Movie.h"
+	<iostream>
+
+1601513307 c:\users\training\desktop\c++\movies\moviedb.h
+	"Genre.h"
+	<list>
+
+1601513331 source:c:\users\training\desktop\c++\movies\genre.h
+	"Movie.h"
+	<iostream>
+
+1601513341 source:c:\users\training\desktop\c++\movies\movie.h
+	<iostream>
+
+1601513307 source:c:\users\training\desktop\c++\movies\moviedb.h
+	"Genre.h"
+	<list>
+
+1601513970 source:c:\users\training\desktop\c++\movies\movie_test.cpp
+	"Movie.h"
+	"Genre.h"
+	"Moviedb.h"
+	<gtest/gtest.h>
+
